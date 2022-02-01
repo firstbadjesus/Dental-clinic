@@ -186,6 +186,11 @@ body {
    }
 }
 /* end media header */
+/* повторяющиеся заголовки */
+
+
+
+/* повторяющиеся заголовки */
 
 /* end header */
 
@@ -289,6 +294,7 @@ body {
 }
 .about__body {
    display: flex;
+   /* flex-wrap: wrap; */
 }
 .about__image {
    flex: 0 0 50%;
@@ -298,15 +304,9 @@ body {
 
 .about__image img {
    border-radius: 30px;
-   /* position: absolute;
-   height: 100%;
-   width: 100%;
-   top: 0;
-   left: 0;
-   object-fit: cover; */
 }
 .about__content {
-   flex: 1 1 auto;
+   /* flex: 1 1 auto; */
 }
 .about__top {
 }
@@ -364,6 +364,89 @@ body {
 }
 
 /* end about us */
+
+/* services */
+
+.page__services {
+}
+.services {
+   padding: 130px 0px 180px 0px;
+}
+.services__container {
+}
+.services__header {
+}
+.header-block {
+
+}
+.header-block {
+   text-align: center;
+}
+.header-block__title {
+   font-weight: 600;
+   font-size: 56px;
+   line-height: 135%;
+   align-items: center;
+   color: #031126;
+}
+
+.header-block__sub-title {
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 170%;
+   align-items: center;
+   text-align: center;
+   color: rgba(3, 17, 38, 0.75);
+   padding-bottom: 54px;
+}
+.services__body {
+   display: flex;
+   flex-wrap: wrap;
+}
+.services__column {
+   padding: 66px 20px 66px 20px;
+   flex: 0 1 20%;
+}
+.services__item {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   background-color: #fff;
+   padding: 20px 25px;
+   text-align: left;
+   background: rgba(201, 233, 255, 0.2);
+}
+.services__icon {
+   height: 85px;
+   display: flex;
+}
+.services__title {
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 170%;
+   color: #031126;
+   
+}
+.services__text {
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 170%;
+   color: rgba(3, 17, 38, 0.75);
+   min-width: 300px; 
+   padding-bottom: 36px;
+}
+.services__link {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 120%;
+   color: #031126;
+}
+
+.services__link:hover {
+   text-decoration: underline;
+} 
+
+/*end services */
 
 /* main */
 
